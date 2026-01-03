@@ -84,36 +84,36 @@
     <div class="container">
       <div class="section-header">
         <span class="section-subtitle">Nuestros Productos</span>
-        <h2 class="section-title">Amplio portafolio farmacéutico y cosmético</h2>
-        <p class="section-description">Ofrecemos una extensa gama de productos farmacéuticos, cosméticos y material médico de las mejores marcas internacionales.</p>
+        <h2 class="section-title">Amplio portafolio farmacéutico y médico</h2>
+        <p class="section-description">Ofrecemos una extensa gama de productos farmacéuticos, materiales médicos desechables y kits especializados de las mejores marcas internacionales.</p>
       </div>
 
       <div class="products-grid">
         <div class="product-card" data-aos="fade-up">
           <div class="product-icon">
-            <i class="fas fa-pills"></i>
+            <i class="fas fa-syringe"></i>
           </div>
           <h3 class="product-title">Medicamentos Farmacéuticos</h3>
-          <p class="product-description">Amplia línea de medicamentos incluyendo antibióticos como cefazolina y ceftriaxona, analgésicos, antiácidos y más.</p>
-          <a href="#" class="product-link">Ver más <i class="fas fa-arrow-right"></i></a>
+          <p class="product-description">Amplia línea de medicamentos inyectables incluyendo Omepral, Ceftriaxona, Cefazolina, Vancomicina, Propofol, Ciprofloxacina, Anidulafungina, Voriconazol y más antibióticos de alta potencia.</p>
+          <a href="#" class="product-link" onclick="openModal('modalMedicamentos'); return false;">Ver más <i class="fas fa-arrow-right"></i></a>
         </div>
 
         <div class="product-card" data-aos="fade-up" data-aos-delay="100">
           <div class="product-icon">
-            <i class="fas fa-spa"></i>
+            <i class="fas fa-box"></i>
           </div>
-          <h3 class="product-title">Productos Cosméticos</h3>
-          <p class="product-description">Cremas faciales, lociones, productos antiarrugas, humectantes, exfoliantes y línea completa de cuidado personal.</p>
-          <a href="#" class="product-link">Ver más <i class="fas fa-arrow-right"></i></a>
+          <h3 class="product-title">Materiales Médicos Desechables</h3>
+          <p class="product-description">Insumos médicos de uso clínico y hospitalario: batas estériles, mascarillas KN95, compresas de gasa, guantes de nitrilo, gorros, jeringas desechables y más.</p>
+          <a href="#" class="product-link" onclick="openModal('modalMateriales'); return false;">Ver más <i class="fas fa-arrow-right"></i></a>
         </div>
 
         <div class="product-card" data-aos="fade-up" data-aos-delay="200">
           <div class="product-icon">
-            <i class="fas fa-stethoscope"></i>
+            <i class="fas fa-briefcase-medical"></i>
           </div>
-          <h3 class="product-title">Material Médico</h3>
-          <p class="product-description">Material médico gastable, equipos médicos especializados y productos para uso hospitalario y clínico.</p>
-          <a href="#" class="product-link">Ver más <i class="fas fa-arrow-right"></i></a>
+          <h3 class="product-title">Packs/Kits Especializados</h3>
+          <p class="product-description">Kits profesionales para procedimientos especializados: Kit Cesárea, Kit de Laparatomía Premium y Kit Parto Normal. Soluciones completas para hospitales y clínicas.</p>
+          <a href="#" class="product-link" onclick="openModal('modalKits'); return false;">Ver más <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
@@ -214,7 +214,7 @@
           <h2 class="section-title">Ameriline Pharmaceutical SRL</h2>
           <p>Somos una empresa farmacéutica dominicana comprometida con el bienestar de nuestra comunidad. Bajo el liderazgo de Roosovoit Alba, quien inició en la industria farmacéutica en 1992 siguiendo los pasos de su padre Rafael Ariel Alba Santana, hemos consolidado nuestra posición como un puente entre el bienestar y la salud.</p>
           
-          <p>Ubicados en la Calle Las Orquídeas 12, Santo Domingo Oeste servimos como el enlace confiable entre los mejores productos farmacéuticos internacionales y la comunidad dominicana y caribeña.</p>
+          <p>Ubicados en la Calle Las Orquídeas 12, Urbanización Mirador de Oeste servimos como el enlace confiable entre los mejores productos farmacéuticos internacionales y la comunidad dominicana y caribeña.</p>
 
           <div class="stats-grid">
             <div class="stat-item">
@@ -294,17 +294,17 @@
             </div>
             <div class="contact-text">
               <h4>Dirección</h4>
-              <p>Calle Las Orquídeas 12, Santo Domingo Oeste</p>
+              <p>Calle Las Orquídeas 12, Urbanización Mirador de Oeste</p>
             </div>
           </div>
 
           <div class="social-media">
             <h4>Síguenos</h4>
             <div class="social-icons">
-              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+              <!--<a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>-->
+              <a href="https://www.instagram.com/amerilinepharmaceutical/" class="social-icon"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/ameriline-pharmaceutical/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              <!--<a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>-->
             </div>
           </div>
         </div>
@@ -356,11 +356,9 @@
           <div class="footer-links-column">
             <h4>Productos</h4>
             <ul>
-              <li><a href="#">Medicamentos</a></li>
-              <li><a href="#">Cosméticos</a></li>
-              <li><a href="#">Material Médico</a></li>
-              <li><a href="#">Productos Naturales</a></li>
-              <li><a href="#">Cuidado Capilar</a></li>
+              <li><a href="#productos">Medicamentos Farmacéuticos</a></li>
+              <li><a href="#productos">Materiales Médicos Desechables</a></li>
+              <li><a href="#productos">Packs/Kits Especializados</a></li>
             </ul>
           </div>
 
@@ -380,7 +378,7 @@
             <ul class="contact-info">
               <li><i class="fas fa-envelope"></i> <a href="mailto:amerilinepharmaceutical@gmail.com">amerilinepharmaceutical@gmail.com</a></li>
               <li><i class="fas fa-phone"></i> <a href="tel:+18095551234">809-555-1234</a></li>
-              <li><i class="fas fa-map-marker-alt"></i> Calle Las Orquídeas 12, Santo Domingo Oeste</li>
+              <li><i class="fas fa-map-marker-alt"></i> Calle Las Orquídeas 12, Urbanización Mirador de Oeste</li>
             </ul>
           </div>
         </div>
@@ -389,14 +387,126 @@
       <div class="footer-bottom">
         <p class="copyright">&copy; 2025 Ameriline Pharmaceutical SRL. Todos los derechos reservados.</p>
         <div class="footer-social">
-          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+          <!--<a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>-->
+          <a href="https://www.instagram.com/amerilinepharmaceutical/" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/ameriline-pharmaceutical/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          <!--<a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>-->
         </div>
       </div>
     </div>
   </footer>
+
+  <!-- Product Modals -->
+  <!-- Modal Medicamentos Farmacéuticos -->
+  <div class="product-modal" id="modalMedicamentos">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Medicamentos Farmacéuticos</h2>
+        <button class="modal-close" onclick="closeModal('modalMedicamentos')">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul class="product-list">
+          <li>Omepral (Omeprazol 40mg)</li>
+          <li>Polaminofen (Paracetamol 100 ml)</li>
+          <li>Polgyl (Metronidazol 500 mg/100ml)</li>
+          <li>Polinoskid (Linezolid 2mg/ml – 300ml/600mg)</li>
+          <li>Ceftriaxona 1gr – BCPP</li>
+          <li>Cefazolina 1gr – BCPP</li>
+          <li>Levetiracetam 500 mg/5ml</li>
+          <li>Vankopol (Vancomicina 1000mg)</li>
+          <li>Vankopol (Vancomicina 500mg)</li>
+          <li>Bromuro de Rocuronio 50 mg/5ml</li>
+          <li>Refastil 40mg (Esomeprazol liofilizado)</li>
+          <li>Cebopim (Cefepime 1gr)</li>
+          <li>Enanfen (Dexketoprofeno)</li>
+          <li>Propofol 1g</li>
+          <li>Tirofiban 12 mg/50ml</li>
+          <li>Paracetamol Infusión Frasco</li>
+          <li>Ciprofloxacina 200mg/100ml</li>
+          <li>Anidamufines (Anidulafungina 100 mg)</li>
+          <li>Vifecandin (Voriconazol 200mg)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Materiales Médicos Desechables -->
+  <div class="product-modal" id="modalMateriales">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Materiales Médicos Desechables</h2>
+        <button class="modal-close" onclick="closeModal('modalMateriales')">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="product-category-section">
+          <h3>Batas y ropa desechable</h3>
+          <ul class="product-list">
+            <li>Bata Paciente Manga Corta Oscura</li>
+            <li>Bata Manga Larga Reforzada SMMS 50GR</li>
+            <li>Bata Manga Larga Reforzada SMMS 45GR</li>
+            <li>Bata Manga Larga Esteril SMS 45GR</li>
+            <li>Bata Paciente Manga Larga</li>
+            <li>Bata Paciente Manga Larga 01</li>
+            <li>Bata Paciente Manga Larga 03</li>
+          </ul>
+        </div>
+        <div class="product-category-section">
+          <h3>Mascarillas y protección</h3>
+          <ul class="product-list">
+            <li>Mascarilla Quirúrgica 3 capas (Cx50)</li>
+            <li>Mascarilla KN95 (Empaque Individual) Cx25</li>
+          </ul>
+        </div>
+        <div class="product-category-section">
+          <h3>Compresas, gasas y tejidos</h3>
+          <ul class="product-list">
+            <li>Compresa de Gasa Estéril (24x20) 5 und</li>
+            <li>Cubre Zapato Tejido 35g</li>
+            <li>Cubre Zapato Antideslizantes 5g</li>
+          </ul>
+        </div>
+        <div class="product-category-section">
+          <h3>Guantes</h3>
+          <ul class="product-list">
+            <li>Guantes de Examen Nitrilo (Cx100 – Medianos)</li>
+            <li>Gorros Enfermeras</li>
+          </ul>
+        </div>
+        <div class="product-category-section">
+          <h3>Jeringas</h3>
+          <ul class="product-list">
+            <li>Jeringa desechable 3ml/cc</li>
+            <li>Jeringa desechable 5ml/cc</li>
+            <li>Jeringa desechable 10ml/cc</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Packs Especializados -->
+  <div class="product-modal" id="modalKits">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Packs / Kits Especializados</h2>
+        <button class="modal-close" onclick="closeModal('modalKits')">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul class="product-list">
+          <li>Kit Cesárea</li>
+          <li>Kit de Laparatomía Premium</li>
+          <li>Kit Parto Normal</li>
+        </ul>
+        <p class="modal-description">Soluciones completas y profesionales para procedimientos especializados en hospitales y clínicas.</p>
+      </div>
+    </div>
+  </div>
 
   <!-- Back to Top Button -->
   <a href="#" class="back-to-top">
@@ -424,7 +534,7 @@
         </div>
       </div>
       <div class="whatsapp-input-area">
-        <a href="https://wa.me/8293283246?text=Hola%20Ameriline,%20me%20gustaría%20obtener%20más%20información%20sobre%20vuestros%20productos." class="whatsapp-send-btn" target="_blank">
+        <a href="https://wa.me/8293283246?text=Hola%20Ameriline,%20me%20gustaría%20obtener%20más%20información%20sobre%20sus%20productos." class="whatsapp-send-btn" target="_blank">
           <i class="fab fa-whatsapp"></i> Iniciar Chat
         </a>
       </div>

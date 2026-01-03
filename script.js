@@ -627,3 +627,31 @@ if (document.readyState === 'loading') {
 } else {
     initWhatsAppWidget();
 }
+
+/**
+ * Product Modal Functions
+ * Open and close modals for product details
+ */
+function openModal(modalId) {
+    const modal = document.getElementById(modalId);
+    if (modal) {
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+}
+
+function closeModal(modalId) {
+    const modal = document.getElementById(modalId);
+    if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = 'auto';
+    }
+}
+
+// Close modal when clicking outside the modal content
+document.addEventListener('click', function(event) {
+    if (event.target.classList.contains('product-modal')) {
+        const modalId = event.target.id;
+        closeModal(modalId);
+    }
+});
